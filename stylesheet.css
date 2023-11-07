@@ -5,9 +5,29 @@
     margin-right: 60px;
     margin-top: 50px;
     margin-bottom: 80px;
-    overflow: ;
     
-}
+    
+}  
+
+.container img {
+    
+    height:20vh;
+    width: 15vh;
+    object-fit: contain;
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 37.9vh;
+    
+    
+
+    
+ }
+ .img {
+    position: absolute;
+   
+   
+ }
 
 .main-text {
     color: #F9FAF8;
