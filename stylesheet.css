@@ -1,18 +1,19 @@
 .body {
 
         margin: auto;
-        width: 640px; 
+        width: 12.5em; 
         padding: 50px;
 }
 
 
 .flex-container {
     background-color: #1F2937;
-    height: 50vh;
+    height: 40vh;
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 50px;
     margin-bottom: 80px;
+   
     
     
 }  
@@ -20,12 +21,12 @@
 .container img {
     
     height:20vh;
-    width: 15vh;
+    width: 25vh;
     object-fit: contain;
     display: flex;
     position: absolute;
     right: 100px;
-    top: 37.9vh;
+    top: 33vh;
     justify-content: space-evenly;
     
     
@@ -51,7 +52,7 @@
 
 .secondary-text {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 25px;
     
 }
 
@@ -79,20 +80,22 @@
      position: absolute;
      top: 50%;
      left: 50%;
-     display: flex;
-     align-items: baseline;
+     position: relative;
+     justify-content:center;
+     
     
 }
 
 
 .rocks img {
+    position: absolute;
+    left: -70vh;
     height:20vh;
     width: 15vh;
-    display: flex;
-     box-sizing: border-box;
     box-sizing: border-box;  
     text-align: center; 
     border: 5px solid lightskyblue;
+    
     
    
      
@@ -101,10 +104,12 @@
 }
 
 .cliff img {
+    position: absolute;
+    left: -38vh;
+    top: 1px;
     height:20vh;
     width: 15vh;
     display: flex;
-   box-sizing: border-box;
     box-sizing: border-box;  
     text-align: center; 
     border: 5px solid lightskyblue;
@@ -113,21 +118,79 @@
 }
 
 .hot-chocolate img {
+    position: absolute;
+    left: 1vh;
+    top: 1px;
     height:20vh;
     width: 15vh;
     display: flex;
     box-sizing: border-box;
-    box-sizing: border-box;  
     text-align: center; 
     border: 5px solid lightskyblue;
 }
 
 .kobi img {
+    position: absolute;
+    left: 45vh;
+    top: 1px;
     height:20vh;
     width: 15vh;
     display: flex;
-    box-sizing: border-box;
     box-sizing: border-box;  
     text-align: center; 
     border: 5px solid lightskyblue;
+}
+
+.box-container p {
+    position: relative;
+    text-align: left;
+    bottom: auto;
+
+}
+
+.footer-container {
+    color: #e5e7eb;
+    font-size: small;
+    text-align: center;
+    background-color: #1F2937;
+    height: 10vh;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50vh;
+    margin-bottom: 50px;
+}
+
+.grey-container {
+     
+    background-color: #e5e7eb;
+    height: 12.5em;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+    top: 1px;
+
+    
+
+    
+}
+
+.h3 {
+   color: #1F2937;
+   font-size: 36px;
+   text-align: center;
+
+}
+
+.my-hopes  {
+
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.button{
+    margin:auto;
+    align-items: center;
+    background-color: lightskyblue;
 }
